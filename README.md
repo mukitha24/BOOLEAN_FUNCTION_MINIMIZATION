@@ -34,19 +34,29 @@ Hardware – PCs, Cyclone II , USB flasher
 **Program:**
 
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+```
+// Verilog model:Circuit with boolean expressions
+module ex02 (E,F,A,B,C,D);
+input A, B, C, D;
+output E,F;
+assign E = A || (B && C) || ((!B) && D);
+assign F=((!B) && C) || ( B && (!C) && (!D));
+endmodule
+```
+Developed by:Mukitha V M
+RegisterNumber:*/212223040119
 
-Developed by: RegisterNumber:*/
 
 
 **RTL realization**
-
+![Screenshot 2024-03-19 093023](https://github.com/mukitha24/BOOLEAN_FUNCTION_MINIMIZATION/assets/154068225/0fc55de3-d0f2-49a4-8869-46e28885aa7e)
 **Output:**
 
 **RTL**
 
 **Timing Diagram**
+![Screenshot 2024-03-19 094242](https://github.com/mukitha24/BOOLEAN_FUNCTION_MINIMIZATION/assets/154068225/31edc7cd-c879-4b14-b10e-12e4285c6a95)
 
 **Result:**
-
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
 
