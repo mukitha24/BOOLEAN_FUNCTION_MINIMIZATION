@@ -12,12 +12,13 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
 Hardware – PCs, Cyclone II , USB flasher
 
-**Software – Quartus prime**
+**Software – Q
+uartus prime**
 
 **Theory**
 
 **Logic Diagram**
-
+![WhatsApp Image 2024-03-19 at 9 46 02 AM](https://github.com/mukitha24/BOOLEAN_FUNCTION_MINIMIZATION/assets/154068225/ebae1abf-7460-40f7-9578-0d5066659c5a)
 **Procedure**
 
 1.	Type the program in Quartus software.
